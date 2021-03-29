@@ -9,8 +9,9 @@ import SwiftUI
 
 struct ItemDetail: View {
     @EnvironmentObject var order: Order
-    let item: MenuItem
+    @Environment(\.presentationMode) var presentationMode
     
+    let item: MenuItem
     var body: some View {
         VStack {
             
@@ -33,6 +34,7 @@ struct ItemDetail: View {
             
             Button("Order") {
                 order.add(item: item)
+                self.presentationMode.wrappedValue.dismiss()
             }
             .font(.headline)
             

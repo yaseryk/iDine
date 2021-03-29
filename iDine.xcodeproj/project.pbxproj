@@ -17,6 +17,7 @@
 		433F61772611238E008E931B /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F61732611238D008E931B /* Menu.swift */; };
 		43A3A13C2612465200070C6B /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A3A13B2612465200070C6B /* OrderView.swift */; };
 		43A3A13F2612490000070C6B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A3A13E2612490000070C6B /* MainView.swift */; };
+		43A3A14226124CB200070C6B /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A3A14126124CB200070C6B /* CheckoutView.swift */; };
 		43BFA95C2611D9CD000635A8 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BFA95B2611D9CD000635A8 /* ItemRow.swift */; };
 		43BFA95F2611E4B9000635A8 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BFA95E2611E4B9000635A8 /* ItemDetail.swift */; };
 /* End PBXBuildFile section */
@@ -34,6 +35,7 @@
 		433F61732611238D008E931B /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = "idine 2/Menu.swift"; sourceTree = SOURCE_ROOT; };
 		43A3A13B2612465200070C6B /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		43A3A13E2612490000070C6B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		43A3A14126124CB200070C6B /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		43BFA95B2611D9CD000635A8 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		43BFA95E2611E4B9000635A8 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +75,7 @@
 				433F615526111E76008E931B /* ContentView.swift */,
 				43BFA95E2611E4B9000635A8 /* ItemDetail.swift */,
 				43A3A13B2612465200070C6B /* OrderView.swift */,
+				43A3A14126124CB200070C6B /* CheckoutView.swift */,
 				43BFA95B2611D9CD000635A8 /* ItemRow.swift */,
 				433F615726111E7C008E931B /* Assets.xcassets */,
 				433F615C26111E7C008E931B /* Info.plist */,
@@ -165,6 +168,7 @@
 			files = (
 				43BFA95F2611E4B9000635A8 /* ItemDetail.swift in Sources */,
 				43A3A13F2612490000070C6B /* MainView.swift in Sources */,
+				43A3A14226124CB200070C6B /* CheckoutView.swift in Sources */,
 				43A3A13C2612465200070C6B /* OrderView.swift in Sources */,
 				433F615626111E76008E931B /* ContentView.swift in Sources */,
 				433F615426111E76008E931B /* iDineApp.swift in Sources */,
